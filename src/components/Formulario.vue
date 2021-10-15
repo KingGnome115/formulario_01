@@ -2,13 +2,19 @@
     <div class="flex-container">
         <form class="form">
             <div class="form_section">
-                <input type="email" class="form_input" placeholder="Email">
+                <input type="text" class="form_input" placeholder="Nombre Completo">
             </div>
             <div class="form_section">
-                <input type="text" class="form_input" placeholder="Asunto">
+                <input type="Email" class="form_input" placeholder="Correo Electronico">
             </div>
             <div class="form_section">
-                <textarea class="form_input" placeholder="Escriba su mensaje"></textarea>
+                <input type="password" class="form_input" placeholder="Contraseña" title="Una buena contraseña es una frase con espacios, números y simbolos">
+            </div>
+            <div class="form_section">
+                <input type="password" class="form_input" placeholder="Repetir Contraseña" title="Una buena contraseña es una frase con espacios, números y simbolos">
+            </div>
+            <div class="form_section">
+                <input type="tel" class="form_input" placeholder="Número de telefono" title="Una buena contraseña es una frase con espacios, números y simbolos">
             </div>
             <div class="form_section">
                 <input type="submit" class="form_input">
@@ -112,7 +118,7 @@
 
     .form input[type="submit"]
     {
-        width: 102.5%;
+        width: 100%;
         background-color: #b10505;
         border-bottom: none;
         padding: 10px;
@@ -146,7 +152,7 @@
             background: #282827;
             margin: 10px 10px;
             padding: 5px;
-            border: 14px solid #000;
+            border: 4px solid #D90505;
             outline:  0;
         }
 
