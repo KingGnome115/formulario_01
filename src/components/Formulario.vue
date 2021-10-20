@@ -2,22 +2,22 @@
     <div class="flex-container">
         <form class="form">
             <div class="form_section">
-                <input type="text" class="form_input" placeholder="Nombre Completo">
+                <input id="nombre" type="text" class="form_input" placeholder="Nombre Completo">
             </div>
             <div class="form_section">
-                <input type="Email" class="form_input" placeholder="Correo Electronico">
+                <input id="email" type="Email" class="form_input" placeholder="Correo Electronico">
             </div>
             <div class="form_section">
-                <input type="password" class="form_input" placeholder="Contraseña" title="Una buena contraseña es una frase con espacios, números y simbolos">
+                <input id="pass" type="password" class="form_input" placeholder="Contraseña" title="Una buena contraseña es una frase con espacios, números y simbolos">
             </div>
             <div class="form_section">
-                <input type="password" class="form_input" placeholder="Repetir Contraseña" title="Una buena contraseña es una frase con espacios, números y simbolos">
+                <input id="pass2" type="password" class="form_input" placeholder="Repetir Contraseña" title="Una buena contraseña es una frase con espacios, números y simbolos">
             </div>
             <div class="form_section">
-                <input type="tel" class="form_input" placeholder="Número de telefono" title="Una buena contraseña es una frase con espacios, números y simbolos">
+                <input id="tel" type="tel" class="form_input" placeholder="Número de telefono" title="Una buena contraseña es una frase con espacios, números y simbolos">
             </div>
             <div class="form_section">
-                <input type="submit" class="form_input">
+                <input id="enviar" type="submit" class="form_input" value="Enviar">
             </div>
         </form>
         <div class="form-img">
@@ -196,7 +196,5 @@
         {
             width: 100.5%;
         }
-
     }
-
 </style>
